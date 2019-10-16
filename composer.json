@@ -1,0 +1,28 @@
+{
+  "name": "halimonalexander/sitemap",
+  "description": "Sitemap plugin",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/halimonalexander/sitemap",
+  "support": {
+    "issues": "https://github.com/halimonalexander/sitemap/issues"
+  },
+  "authors": [
+    {
+      "name": "Halimon Alexander",
+      "email": "vvthanatos@gmail.com",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "HalimonAlexander\\Sitemap\\": "src/"
+    }
+  }
+}
